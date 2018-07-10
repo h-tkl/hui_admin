@@ -1,0 +1,3495 @@
+---------------------------------------------------------------
+[ 2018-07-10T09:31:51+08:00 ] 127.0.0.1 GET /admin/login/login
+[ info ] 127.0.0.1:99/admin/login/login [运行时间：0.084961s][吞吐率：11.77req/s] [内存消耗：1,279.09kb] [文件加载：37]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\H-ui.admin\H-ui.admin\public/../application/admin\view\login\login.html [ array (
+  0 => 'name',
+  1 => 'pwd',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-10T09:31:51+08:00 ] 127.0.0.1 GET /captcha
+[ info ] 127.0.0.1:99/captcha [运行时间：0.071289s][吞吐率：14.03req/s] [内存消耗：1,043.80kb] [文件加载：29]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\H-ui.admin\H-ui.admin\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-10T09:31:53+08:00 ] 127.0.0.1 GET /captcha?id=1531186313
+[ info ] 127.0.0.1:99/captcha?id=1531186313 [运行时间：0.039063s][吞吐率：25.60req/s] [内存消耗：1,044.19kb] [文件加载：29]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\H-ui.admin\H-ui.admin\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-10T09:31:54+08:00 ] 127.0.0.1 GET /captcha?id=1531186314
+[ info ] 127.0.0.1:99/captcha?id=1531186314 [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,044.19kb] [文件加载：29]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\web\H-ui.admin\H-ui.admin\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-10T09:32:02+08:00 ] 127.0.0.1 POST /admin/login/login
+[ info ] 127.0.0.1:99/admin/login/login [运行时间：0.162110s][吞吐率：6.17req/s] [内存消耗：1,889.91kb] [文件加载：45]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1:99',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+  'pwd' => 'admin',
+  'name' => 'admin',
+  'captcha' => 'cnip',
+  'rempsw' => '1',
+  'is_rem' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012695s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.072266s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] UPDATE `admin_user`  SET `last_login`='2018-07-10 09:32:02',`last_ip`='127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.018555s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:32:04+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.230468s][吞吐率：4.34req/s] [内存消耗：2,113.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.054687s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.069336s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:33:01+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.219727s][吞吐率：4.55req/s] [内存消耗：2,113.47kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.019531s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.027344s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.018555s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:33:05+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.237305s][吞吐率：4.21req/s] [内存消耗：2,112.17kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.023437s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.027344s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.016602s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:33:05+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.122070s][吞吐率：8.19req/s] [内存消耗：2,112.17kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.012695s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.012695s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:33:48+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.172852s][吞吐率：5.79req/s] [内存消耗：2,112.18kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.012695s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.019532s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:33:53+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.219727s][吞吐率：4.55req/s] [内存消耗：2,112.18kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.014649s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:34:27+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.699218s][吞吐率：1.43req/s] [内存消耗：2,112.26kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.042969s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011718s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:45:01+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.179687s][吞吐率：5.57req/s] [内存消耗：2,112.26kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:45:04+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.169922s][吞吐率：5.89req/s] [内存消耗：2,112.26kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:54:55+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.182617s][吞吐率：5.48req/s] [内存消耗：2,112.26kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:55:01+08:00 ] 127.0.0.1 GET /admin/admin/index
+[ info ] 127.0.0.1:99/admin/admin/index [运行时间：0.175782s][吞吐率：5.69req/s] [内存消耗：2,113.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:55:19+08:00 ] 127.0.0.1 GET /admin/admin/index
+[ info ] 127.0.0.1:99/admin/admin/index [运行时间：0.180664s][吞吐率：5.54req/s] [内存消耗：2,113.82kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003906s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.029297s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:55:37+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.173829s][吞吐率：5.75req/s] [内存消耗：2,113.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:59:33+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.105468s][吞吐率：9.48req/s] [内存消耗：1,795.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T09:59:36+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.186523s][吞吐率：5.36req/s] [内存消耗：1,795.59kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042969s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.014648s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:00:37+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.117188s][吞吐率：8.53req/s] [内存消耗：1,794.61kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.025391s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.039062s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:00:40+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.121093s][吞吐率：8.26req/s] [内存消耗：1,794.61kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.027343s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:03:07+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.181641s][吞吐率：5.51req/s] [内存消耗：2,094.64kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012695s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.024414s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:03:10+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.189453s][吞吐率：5.28req/s] [内存消耗：2,094.23kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018555s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.027343s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.023437s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.027343s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:04:43+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.182617s][吞吐率：5.48req/s] [内存消耗：2,096.34kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.028321s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.037110s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:04:46+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.167969s][吞吐率：5.95req/s] [内存消耗：2,095.93kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007812s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.020507s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.028320s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:09:39+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.195313s][吞吐率：5.12req/s] [内存消耗：2,085.45kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:11:06+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.165039s][吞吐率：6.06req/s] [内存消耗：2,086.88kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021484s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.004882s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:11:11+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.158203s][吞吐率：6.32req/s] [内存消耗：2,086.48kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.025391s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.021484s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.012696s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:11:59+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.185547s][吞吐率：5.39req/s] [内存消耗：2,117.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.035157s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:12:56+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.214843s][吞吐率：4.65req/s] [内存消耗：2,117.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.023438s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.057617s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.006836s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:12:59+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.178710s][吞吐率：5.60req/s] [内存消耗：2,117.32kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003906s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.013671s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:13:30+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011718s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:13:44+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.218750s][吞吐率：4.57req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012695s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.020507s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021484s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.005860s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:13:46+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.181641s][吞吐率：5.51req/s] [内存消耗：2,113.87kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.027343s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.017578s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:14:05+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.214844s][吞吐率：4.65req/s] [内存消耗：2,113.82kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.033204s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.016602s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:14:14+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.161133s][吞吐率：6.21req/s] [内存消耗：2,115.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003907s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.025391s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021485s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:15:40+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.184570s][吞吐率：5.42req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012696s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:15:41+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.188477s][吞吐率：5.31req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012696s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.027344s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:15:41+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.179688s][吞吐率：5.57req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013672s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:15:42+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.191406s][吞吐率：5.22req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:16:17+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.178711s][吞吐率：5.60req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.027344s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.004882s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:16:18+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.177734s][吞吐率：5.63req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.029297s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:16:19+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.143555s][吞吐率：6.97req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.017579s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:16:33+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.166015s][吞吐率：6.02req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.017578s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:16:35+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.133789s][吞吐率：7.47req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.020508s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.012695s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:16:35+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.182617s][吞吐率：5.48req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.029297s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.003906s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:17:51+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.164063s][吞吐率：6.10req/s] [内存消耗：2,099.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.024414s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:17:52+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.173828s][吞吐率：5.75req/s] [内存消耗：2,099.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.039063s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:01+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.154296s][吞吐率：6.48req/s] [内存消耗：2,117.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.013672s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:03+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.191406s][吞吐率：5.22req/s] [内存消耗：2,117.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.033204s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.038086s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:03+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.166015s][吞吐率：6.02req/s] [内存消耗：2,117.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.025390s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.029296s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.028321s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:25+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.172852s][吞吐率：5.79req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.027344s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:26+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007813s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.035157s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:27+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.197266s][吞吐率：5.07req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.041015s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.056641s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.024414s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:27+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.199219s][吞吐率：5.02req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.040040s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.036132s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:18:37+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.161133s][吞吐率：6.21req/s] [内存消耗：2,115.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.024414s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.006836s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.018555s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:19:13+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.173828s][吞吐率：5.75req/s] [内存消耗：2,116.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.006836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.032226s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:19:58+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.385742s][吞吐率：2.59req/s] [内存消耗：2,116.71kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003906s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.264648s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.028320s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.012695s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:15+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.158203s][吞吐率：6.32req/s] [内存消耗：2,115.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.019531s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:16+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.178711s][吞吐率：5.60req/s] [内存消耗：2,115.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.038086s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.024414s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:17+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.161133s][吞吐率：6.21req/s] [内存消耗：2,115.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.038086s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.023438s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:32+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.219727s][吞吐率：4.55req/s] [内存消耗：2,117.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006836s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.069336s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.009765s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.009765s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:42+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.205078s][吞吐率：4.88req/s] [内存消耗：2,117.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.018555s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:43+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.193359s][吞吐率：5.17req/s] [内存消耗：2,117.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.036132s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.042968s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:20:44+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.179687s][吞吐率：5.57req/s] [内存消耗：2,117.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.035157s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:22:21+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.240234s][吞吐率：4.16req/s] [内存消耗：2,163.76kb] [文件加载：49]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+[ error ] [8]未定义变量: nmenu[D:\web\H-ui.admin\H-ui.admin\application\admin\model\Menus.php:56]
+---------------------------------------------------------------
+[ 2018-07-10T10:22:58+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.179688s][吞吐率：5.57req/s] [内存消耗：2,122.01kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005859s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.025391s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.004882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.033204s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:23:01+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：2,121.60kb] [文件加载：44]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.017578s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.023437s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:23:44+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.201172s][吞吐率：4.97req/s] [内存消耗：2,190.97kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->role[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\web\H-ui.admin\H-ui.admin\public/../application/admin\view\admin\admin-role.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.033204s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:23:56+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:99/admin/index/index [运行时间：0.176757s][吞吐率：5.66req/s] [内存消耗：2,193.51kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\H-ui.admin\H-ui.admin\public/../application/admin\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003906s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021485s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:23:56+08:00 ] 127.0.0.1 GET /admin/index/welcome
+[ info ] 127.0.0.1:99/admin/index/welcome [运行时间：0.189453s][吞吐率：5.28req/s] [内存消耗：2,142.01kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530860291,1530929072,1531098990,1531100289; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\H-ui.admin\H-ui.admin\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005859s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.013672s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.044921s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.020508s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.003906s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:23:59+08:00 ] 127.0.0.1 GET /admin/picture/index
+[ info ] 127.0.0.1:99/admin/picture/index [运行时间：0.174805s][吞吐率：5.72req/s] [内存消耗：2,093.42kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530929072,1531098990,1531100289,1531189438; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1531189438',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013671s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.028321s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.003906s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:24:06+08:00 ] 127.0.0.1 GET /admin/member/index
+[ info ] 127.0.0.1:99/admin/member/index [运行时间：0.164063s][吞吐率：6.10req/s] [内存消耗：2,095.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530929072,1531098990,1531100289,1531189438; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1531189438',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.029297s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:24:10+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.170898s][吞吐率：5.85req/s] [内存消耗：2,192.02kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530929072,1531098990,1531100289,1531189438; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1531189438',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->role[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\web\H-ui.admin\H-ui.admin\public/../application/admin\view\admin\admin-role.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010743s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.024414s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:24:14+08:00 ] 127.0.0.1 GET /admin/admin/role_add
+[ info ] 127.0.0.1:99/admin/admin/role_add [运行时间：0.167968s][吞吐率：5.95req/s] [内存消耗：2,095.11kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/admin/role',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530929072,1531098990,1531100289,1531189438; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1531189438',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.042969s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021484s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:28:21+08:00 ] 127.0.0.1 GET /admin/admin/role
+[ info ] 127.0.0.1:99/admin/admin/role [运行时间：0.204102s][吞吐率：4.90req/s] [内存消耗：2,192.02kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530929072,1531098990,1531100289,1531189438; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1531189438',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admin->role[ D:\web\H-ui.admin\H-ui.admin\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\web\H-ui.admin\H-ui.admin\public/../application/admin\view\admin\admin-role.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003907s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.041993s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.030273s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 0  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 23  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 1  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `parent_id` = 2  AND `type` = 'menu'  AND `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) ORDER BY `sort` ASC [ RunTime:0.001954s ]
+---------------------------------------------------------------
+[ 2018-07-10T10:29:35+08:00 ] 127.0.0.1 GET /admin/admin/role_add
+[ info ] 127.0.0.1:99/admin/admin/role_add [运行时间：0.203125s][吞吐率：4.92req/s] [内存消耗：2,095.11kb] [文件加载：43]
+[ info ] [ LANG ] D:\web\H-ui.admin\H-ui.admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:99',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:99/admin/admin/role',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'cu=admin; CSDFDSA=admin; PHPSESSID=4gigg8dtg030kvn1odc5f24uh7; Hm_lvt_080836300300be57b7f34f4b3e97d911=1530929072,1531098990,1531100289,1531189438; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1531189438',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;port=3306;dbname=hul_admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.025391s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `names` = 'admin' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT `role_name` FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` WHERE  `role_id` = 1 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT `url` FROM `admin_menu` WHERE  `id` IN (23,25,1,3,11,12,13,22,4,14,15,16,5,7,8,9,10,2,6,17,18,20) [ RunTime:0.002929s ]
